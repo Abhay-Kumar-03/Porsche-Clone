@@ -1,0 +1,919 @@
+/*---------------------------->HEADER<---------------------------*/
+/*-->Navbar<--*/
+* {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    background-color: black;
+    height: 75px;
+    color: white;
+    display: flex;
+}
+
+.content-1 {
+    color: #ffffff;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.content-1-img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 50%;
+    margin-left: 10px;
+    
+}
+
+.content-1-cont {
+    font-size: 0.85rem;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.content-2 {
+    font-size: 0.85rem;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.content-2 p {
+    margin-left:10px ;
+}
+.change {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.content-2 :hover {
+    background-color: #d1d6da54;
+    border-radius: 5%;
+    
+}
+
+.content-3  {
+    margin-top: 30px;
+    margin-left: 60%;
+}
+
+/*-->Navbar 2<--*/
+.navbar-2 {
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-2 {
+    display: flex;
+    color: black;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu-2 p {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.menu-2:hover{
+    background-color: #d1d6da54;
+    border-radius: 5%;
+}
+
+.navbar-2-img img {
+    background-size: cover;
+    margin-left: 90%;
+    height: 70px;
+}
+
+/*---------------------------------->>Main<<----------------------------*/
+.hero-section-img {
+    background-image: url(porsche-img-3.webp);
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+.description {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    text-align: left;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.parra-img img {
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.parra-1 {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.parra-2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.parra-cont:hover {
+    color: red;
+    transition: all 0.1s ease-in;
+}
+
+/*-- Models --*/
+.models {
+    
+    background-color: white;
+}
+
+.headline {
+    height: 100px;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.headline p {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*---boxes-1----*/
+.boxes-1 {
+    display: flex;
+}  
+
+/*--box1--*/
+.box1 {
+    background-image: url(porsche-img-5.webp);
+    background-size: cover;
+    height: 380px;
+    width: 490px;
+    background-position: 30%;
+}
+
+.content {
+    padding: 2.2%;
+}
+
+.content span{
+    font-size: 35px;
+    font-weight: 650;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.content p {
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+.cont-bot {
+    position:relative;
+    top: 210px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.but-1 {
+    background-color: white;
+    color: black;
+    height: 52px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.but-1:hover {
+    background-color: red;
+    color: #ffffff;
+}
+
+.but-1-img {
+    display: flex;
+}
+
+.but-1-img img {
+    height: 40px;
+    margin-right: 5px;
+}
+
+.but-1-text {
+    margin-bottom: 5px;
+}
+
+
+.butto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 130px;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid white;
+    margin-left: 10px;
+}
+
+.butto img {
+    height: 39px;
+    margin-left: -20px;
+}
+
+.butto p{
+    font-size: 16px;
+    margin-left: -5px;   
+}
+
+.butto:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+
+/*--box2--*/
+.box2 {
+    background-image: url(porsche-img-8.webp);
+    background-size: cover;
+    height: 380px;
+    width: 460px;
+    background-position: 30%;
+}
+
+/*--box3--*/
+.box3 {
+    background-image: url(porsche-img-9.webp);
+    background-size: cover;
+    height: 380px;
+    width: 490px;
+    background-position: 50%;
+}
+/*-----boxes-2-----*/
+.boxes-2 {
+    display: flex;
+}  
+
+/*--box4--*/
+.box4 {
+    background-image: url(porsche-img-10.webp);
+    background-size: cover;
+    height: 380px;
+    width: 490px;
+    background-position: 30%;
+}
+
+/*--box5--*/
+.box5 {
+    background-image: url(porsche-img-11.webp);
+    background-size: cover;
+    height: 380px;
+    width: 460px;
+    background-position: 30%;
+}
+
+/*--box6--*/
+.box6 {
+    background-image: url(porsche-img-12.webp);
+    background-size: cover;
+    height: 380px;
+    width: 490px;
+    background-position: 50%;
+}
+
+
+/*--note--*/
+.note p{
+    font-size: 0.85rem;
+    margin-top: 18px;
+    margin-left: 110px;
+}
+
+/*--------------->>>>PorscheNearYou<<<<----------*/
+.pors-near {
+    height: 480px;
+}
+
+.pors-near-headline {
+    height: 100px;
+}
+
+.pors-near-headline span {
+    height: 100px;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 107px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.pors-near-cont {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.model-718 {
+    height: 330px;
+    width: 260;
+    background-color: white;
+}
+
+.model-718 img {
+    height: 230px;
+    width: 430px;
+}
+
+.model-911 {
+    height: 330px;
+    width: 260;
+    background-color: white;
+}
+
+.model-911 img {
+    height: 230px;
+    width: 430px;
+}
+
+.taycan-model {
+    height: 330px;
+    width: 260;
+    background-color: white;
+}
+
+.taycan-model img {
+    height: 230px;
+    width: 430px;
+}
+
+
+.model-but {
+    background-color: #373A40;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 175px;
+    margin-left: 120px;
+}
+
+.model-but:hover {
+    background-color: red;
+}
+
+.model-but img {
+    height: 32px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.model-but p {
+    color: #ffffff;
+    margin-top: 14px;
+}
+
+
+/*----------------------->>Shoping<<--------------------*/
+.shoping {
+    height: 450px;
+}
+
+.shoping-text p {
+    height: 100px;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 107px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    align-items: center;
+    
+}
+
+.shoping-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+
+/*-->Compare<--*/
+.compare {
+    background-image: url(porsche-img-13.webp);
+    background-size: cover;
+    background-position: 50%;
+    height: 270px;
+    width: 490px;
+}
+
+.compare-cont {
+    position: absolute;
+    display: flex;
+    margin-top: 208px;
+    align-items: center;
+    
+}
+
+.compare-cont-img img {
+    height: 45px;
+    margin-top: 4px;
+}
+
+.compare-cont-text {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.compare :hover {
+    color: red;
+}
+
+/*-->locate<--*/
+.locate {
+    background-image: url(porsche-img-14.webp);
+    background-size: cover;
+    background-position: 50%;
+    height: 270px;
+    width: 245px;
+}
+
+.locate-cont {
+    position: absolute;
+    display: flex;
+    margin-top: 208px;
+    align-items: center;
+    
+}
+
+.locate-cont-img img {
+    height: 45px;
+    margin-top: 4px;
+}
+
+.locate-cont-text {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.locate-cont-text :hover {
+    color: red;
+}
+
+/*-->lifestyle<--*/
+.lifestyle {
+    background-image: url(porsche-img-15.webp);
+    background-size: cover;
+    background-position: 50%;
+    height: 270px;
+    width: 246px;
+}
+
+.lifestyle-cont {
+    position: absolute;
+    display: flex;
+    margin-top: 208px;
+    align-items: center;
+    
+}
+
+.lifestyle-cont-img img {
+    height: 45px;
+    margin-top: 4px;
+}
+
+.lifestyle-cont-text {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.lifestyle-cont-text :hover {
+    color: red;
+}
+
+/*-->contact-us<--*/
+.contact-us {
+    background-image: url(porsche-img-16.webp);
+    background-size: cover;
+    background-position: 50%;
+    height: 270px;
+    width: 246px;
+}
+
+.contact-us-cont {
+    position: absolute;
+    display: flex;
+    margin-top: 208px;
+    align-items: center;
+    
+}
+
+.contact-us-cont-img img {
+    height: 45px;
+    margin-top: 4px;
+}
+
+.contact-us-cont-text {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.contact-us-cont-text :hover {
+    color: red;
+}
+
+/*---------------------->>>Discover<<<-----------------*/
+.discover {
+    height: 450px;
+}
+
+.discover h{
+    height: 100px;
+    font-size: 36px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 107px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    align-items: center;
+}
+
+/*-->discover<--*/
+.discover-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pors-e {
+    height: 240px;
+    width: 307px;
+    background-image: url(porsche-img-20.webp);
+    background-size: cover;
+}
+
+.pors-finder {
+    height: 240px;
+    width: 306px;
+    background-image: url(porsche-img-21.webp);
+    background-size: cover;
+}
+
+.pors-life {
+    height: 240px;
+    width: 306px;
+    background-image: url(porsche-img-22.webp);
+    background-size: cover;
+}
+
+.pors-exc {
+    height: 240px;
+    width: 307px;
+    background-image: url(porsche-img-23.webp);
+    background-size: cover;
+}
+
+/*-->Discover-but<--*/
+.discover-but {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.dis-but-1-img img {
+    height: 30px;
+    margin-top: -6px;
+
+}
+
+.dis-but-1 {
+    display: flex;
+    margin-left: 102px;
+}
+
+.dis-but-2 {
+    display: flex;
+    margin-left: -50px;
+}
+
+.dis-but-3 {
+    display: flex;
+    margin-right: -10px;
+}
+
+.dis-but-4 {
+    display: flex;
+    
+    margin-right: 180px;
+}
+
+.discover-but p {
+    font-size: 1rem;
+    margin-left: 4px;
+}
+
+/*----------------------->>FOOTER<<--------------------*/
+/*---->>>Footer-White<<<----*/
+
+/*-->Foot-1<--*/
+hr {
+    margin-left: 107px;
+    margin-right: 107px;
+    color: #c8cacb;
+    line-height: .1rem;
+    opacity: 30%;
+}
+
+.foot-1 {
+    height: 550px;
+    display: flex;
+    margin: 0px 107px 0px 107px;
+    background-color: white;
+}
+
+.foot-1 p {
+    margin-top: 30px; 
+    font-size: 1rem;
+}
+
+.foot-1 p:hover {
+    color: red;
+    transition: all 0.1s ;
+}
+
+.foot-1 h3 {
+    margin-top: 25px;
+}
+
+.foot-1a {
+    height: 300px;
+    width: 270px;
+}
+
+.foot-1b {
+    height: 300px;
+    width: 270px;
+    margin-left: 37px;
+}
+
+.foot-1c {
+    height: 300px;
+    width: 270px;
+    margin-left: 40px;
+}
+
+.foot-1-d {
+    height: 300px;
+    width: 300px;
+    margin-left: 35px;
+    
+}
+
+/*-->Foot-2<--*/
+.button-foot-2 {
+    height: 50px;
+    width: 300px;
+    background-color: #313639;
+    color: #ffffff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    bottom: 205px;
+    left: 1030px;
+    border: none;
+}
+.button-foot-2:hover {
+    background-color: red;
+}
+
+button i {
+    font-size: 23px;
+    margin-left: 14px;
+}
+
+button p {
+    font-size: 17px;
+    margin-left: 15px;
+}
+
+/*-->foot-3<--*/
+.foot-3 {
+    height: 90px;
+    width: 320px;
+    margin-left: 1030px;
+    margin-top: -160px;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    height: 60px;
+    width: 300px;
+    margin-left: -38px;
+}
+
+.button-foot-3a {
+    border-radius: 0%;
+    height: 55px;
+    width: 53px;
+    border: none;
+    margin-top: 2px;
+    background-color: #313639;
+}
+
+.button-foot-3a:hover {
+    background-color: #2753A7;
+}
+
+.button-foot-3b {
+    border-radius: 0%;
+    height: 55px;
+    width: 53px;
+    border: none;
+    margin-top: 2px;
+    background-color: #313639;
+}
+
+.button-foot-3b:hover {
+    background-color: #D5001C;
+}
+
+.button-foot-3c {
+    border-radius: 0%;
+    height: 55px;
+    width: 53px;
+    border: none;
+    margin-top: 2px;
+    background-color: #313639;
+}
+
+.button-foot-3c:hover {
+    background-color: #cd242b;
+}
+
+.button-foot-3d {
+    border-radius: 0%;
+    height: 55px;
+    width: 53px;
+    border: none;
+    margin-top: 2px;
+    background-color: #313639;
+}
+
+.button-foot-3d:hover {
+    background-color: #55ACEE;
+}
+
+.foot-3-text p {
+    font-size: 20px;
+    color: #959899;
+    font-weight: bolder;
+}
+
+.foot-3-text {
+    width: 290px;
+}
+
+button i {
+    font-size: 25px;
+    font-display: cover;
+    position: relative;
+    right: 5px;
+    color: white;
+}
+
+/*------->>>>footer-black<<<<--------*/
+.footer-black {
+    height: 290px;
+    background-color: #191f22;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: left;
+    padding: 23px 105px 0px 105px;
+}
+
+.head-black {
+    color: white;
+    font-size: 22px; 
+}
+
+.region {
+    display: flex;
+}
+
+.region-box-1 {
+    height: 49px;
+    width: 290px;
+    background-color: #313639;
+    border: none;
+    margin-top: 20px;
+}
+
+.region-box-1::placeholder{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.span-foot-1 i{
+    color: white;
+}
+
+.span-foot-1 {
+    background: #313639;
+    margin-left: -30px;
+}
+
+.region-box-2 {
+    height: 49px;
+    width: 290px;
+    background-color: #313639;
+    border: none;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.region-box-2::placeholder{
+    color: none;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.span-foot-2 {
+    background: #313639;
+    margin-left: -30px;
+    color: #999999;
+}
+
+.span-foot-2 i{
+    color: #999999;
+}
+
+.line-2 hr{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.foot-para {
+    margin-top: 35px;
+}
+
+.foot-para p{
+    color: white;
+}
+
+.foot-para a{
+    color: black;
+    gap: 2px;
+    font-size: 0.95rem;
+}
+
+.foot-para a:hover{
+    color: red;
+    text-decoration: none;
+}
